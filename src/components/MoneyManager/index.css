@@ -1,0 +1,139 @@
+/* Write your CSS here */
+.container {
+  height: 100vh;
+  width: 100vw;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.head-box {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  height: 200px;
+  width: 95vw;
+  background-size: cover;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.heading {
+  color: #475569;
+}
+.paragraph {
+  color: #475569;
+}
+
+.head-link {
+  color: #0b69ff;
+  font-weight: 600;
+}
+
+.boxes {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.box-1 {
+  height: 350px;
+  width: 300px;
+  padding: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #7e858e;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10px;
+}
+.heading-1 {
+  font-size: 25px;
+  color: #1e293b;
+}
+
+.label-text {
+  color: #7e858e;
+  margin: 5px;
+}
+
+.input {
+  width: 200px;
+  border-color: #7e858e;
+  outline: none;
+  border-radius: 5px;
+  padding: 5px;
+  border-width: 1px;
+}
+
+.button {
+  color: #ffffff;
+  background-color: #0b69ff;
+  padding: 8px;
+  outline: none;
+  border-width: 0px;
+  margin-top: 10px;
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.box-2 {
+  height: 350px;
+  width: 400px;
+  padding: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #7e858e;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading-1 {
+  width: 100%;
+  text-align: left;
+}
+.small-box {
+  width: 100%;
+}
+.heading-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+  border-width: 1px;
+  border-color: #d7dfe9;
+  border-radius: 10px;
+  border-style: solid;
+}
+.head {
+  font-weight: 600;
+  color: #1e293b;
+  padding: 5px;
+}
+
+@media (max-width: 576px) {
+  .boxes {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .box-1 {
+    height: 350px;
+    width: 300px;
+    margin-bottom: 10px;
+  }
+
+  .box-2 {
+    height: 350px;
+    width: 300px;
+  }
+}

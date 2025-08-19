@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.small-box {
+  height: 100%;
+  width: 100%;
+}
+.text-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 95%;
+  border-width: 1px;
+  border-color: #d7dfe9;
+  border-radius: 10px;
+  border-style: solid;
+}
+
+.button-1 {
+  background-color: transparent;
+  outline: none;
+  border-width: 0px;
+}
+.delete-icon {
+  height: 20px;
+}
+
+.para {
+  color: #1e293b;
+  padding: 5px;
+}
