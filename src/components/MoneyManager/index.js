@@ -102,7 +102,7 @@ class MoneyManager extends Component {
     return (
       <div className="container">
         <div className="head-box">
-          <h1 className="heading">Hi, Richard</h1>
+          <h1 className="heading">Hi, Suraj</h1>
           <p className="paragraph">
             Welcome back to your
             <span className="head-link"> Money Manager</span>
